@@ -1,0 +1,112 @@
+.footerBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerGrid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.footerBox .footerGrid span {
+    flex: 0 0 300px;
+}
+
+.formBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #00173e1e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mainForm,
+.help,
+.footerLink
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.formBox .mainForm{
+    padding-top: 60px;
+}
+
+.formBox h3,
+.help h3,
+.footerLink h3
+{
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+
+.mainForm label{
+    color: var(--paragraph);
+    font-size: 15px;
+}
+
+.mainForm input {
+   background: none;
+   border-bottom: 1px solid var(--bgColor);
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   padding: 10px;
+   outline: none;
+   color: var(--white);
+}
+
+.help ul,
+.footerLink ul{
+    padding: 10px;
+}
+
+.help ul li,
+.footerLink ul li {
+    list-style: none;
+    color: var(--paragraph);
+    transition: .5s;
+    padding-bottom: 10px;
+}
+
+.help ul li:hover,
+.footerLink ul li:hover {
+    list-style: none;
+    color: var(--white);
+    cursor: pointer;
+    padding-left: 5px;
+}
+
+.footerPreserved{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerPreserved .links{
+    text-decoration: none;
+    color: var(--paragraph);
+    font-size: 13px;
+}
+
+.linkIcon{
+    width: 30px;
+    height: 30px;
+}

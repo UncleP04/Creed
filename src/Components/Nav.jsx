@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from "../Styles/nav.module.css";
-// import { useState } from "react";
+import Image from "next/image";
+import Logo from '../Images/logo.png'
 
 const Nav = () => {
   // const [toggle, setToggle] = useState(false);
@@ -11,7 +12,7 @@ const Nav = () => {
 
   return (
     <div className={styles.navBox}>
-      <i>Creed</i>
+      <Image src={Logo} alt="logo.png" className={styles.logo}/>
       <nav className={styles.navLinks}>
         <ul>
           <li>
