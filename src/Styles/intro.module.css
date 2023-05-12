@@ -1,3 +1,6 @@
+/* font-family: 'Wix Madefor Display', sans-serif;
+font-family: 'Foldit', cursive; */
+
 .introBox {
     display: flex;
     flex-direction: column;
@@ -12,7 +15,7 @@
 }
 
 .explore {
-    margin-top: 10%;
+    padding-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +30,7 @@
 }
 
 .explore .exploreContent span {
-    color: var(--white);
+    color: #fff;
     font-size: 2em;
     text-transform: capitalize;
     letter-spacing: 3px;
@@ -36,6 +39,8 @@
 .explore .exploreContent span h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-size: 3em;
+    font-family: 'Foldit', cursive;
 }
 
 .explore .exploreContent p {
@@ -63,7 +68,7 @@
 }
 
 .premierContent {
-    color: var(--white);
+    color: #fff;
 }
 
 .premierContent span {
@@ -72,7 +77,7 @@
 }
 
 .premierContent h2 {
-    color: var(--white);
+    color: #fff;
     font-size: 1.5em;
 }
 
@@ -90,6 +95,7 @@
         display: grid;
         grid-template-columns: 1fr;
         width: 100%;
+        padding-top: 35%;
     }
     
     .explore .ape1 {
@@ -104,7 +110,7 @@
     }
 
     .explore .exploreContent span {
-        color: var(--white);
+        color: #fff;
         font-size: 20px;
         text-transform: capitalize;
         letter-spacing: 3px;

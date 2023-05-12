@@ -1,18 +1,6 @@
-:root {
-  --bgColor: #00173E;
-  --pinkColor: #F902E0;
-  --white: #fff;
-  --black: #00050c;
-  --paragraph: #d6deeb59;
-  --btn: #cf943a;
-}
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@300&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body{
-  background: var(--black);
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -10,7 +10,7 @@ import Image from "next/image";
 const Gallery = () => {
   return (
     <>
-      <div className={styles.galleryBox}>
+      <div className={styles.galleryBox} id="gallery">
         <span className={styles.galleryHeader}>
           <h1>NFT Gallery</h1>
           <p>

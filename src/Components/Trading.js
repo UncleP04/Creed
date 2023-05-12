@@ -18,7 +18,7 @@ const Trading = () => {
             taken to presentation.
           </p>
         </span>
-        <div className={styles.tradingGrid}>
+        <div className={styles.tradingGrid} id='trading'>
           <div className={styles.imageBox}>
             <Image src={NFTImage} alt="group.png" className={styles.NFTImage} />
           </div>

@@ -6,6 +6,7 @@
     padding: 40px 20px;
     justify-content: center;
     align-items: center;
+    background: #00050c;
 }
 
 .footerGrid {
@@ -50,7 +51,7 @@
 .help h3,
 .footerLink h3
 {
-    color: var(--white);
+    color: #fff;
     font-size: 15px;
     font-weight: 500;
     margin: 0;
@@ -58,19 +59,19 @@
 }
 
 .mainForm label{
-    color: var(--paragraph);
+    color: #d6deeb59;
     font-size: 15px;
 }
 
 .mainForm input {
    background: none;
-   border-bottom: 1px solid var(--bgColor);
+   border-bottom: 1px solid #00173E;
    border-top: none;
    border-left: none;
    border-right: none;
    padding: 10px;
    outline: none;
-   color: var(--white);
+   color: #fff;
 }
 
 .help ul,
@@ -81,7 +82,7 @@
 .help ul li,
 .footerLink ul li {
     list-style: none;
-    color: var(--paragraph);
+    color: #d6deeb59;
     transition: .5s;
     padding-bottom: 10px;
 }
@@ -89,7 +90,7 @@
 .help ul li:hover,
 .footerLink ul li:hover {
     list-style: none;
-    color: var(--white);
+    color: #fff;
     cursor: pointer;
     padding-left: 5px;
 }
@@ -102,7 +103,7 @@
 
 .footerPreserved .links{
     text-decoration: none;
-    color: var(--paragraph);
+    color: #d6deeb59;
     font-size: 13px;
 }
 

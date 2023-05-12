@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--bgColor);
+    background: #00173E;
     position: relative;
 }
 
@@ -17,13 +17,14 @@
 .tradingHeader h1 {
     text-align: center;
     font-size: 3em;
-    color: var(--white);
+    color: #fff;
+    font-family: 'Foldit', cursive;
 }
 
 .tradingHeader p {
     text-align: center;
     font-size: 15px;
-    color: var(--paragraph);
+    color: #d6deeb59;
     width: 600px;
 }
 
@@ -74,17 +75,17 @@
 }
 
 .tradingGridContent span:hover {
-   border: 1px solid var(--btn);
+   border: 1px solid #cf943a;
 }
 
 .tradingGridContent span h2 {
-    color: var(--white);
+    color: #fff;
     font-size: 20px;
     margin-bottom: 5px;
 }
 
 .tradingGridContent span p {
-    color: var(--paragraph);
+    color: #d6deeb59;
     font-size: 13px;
 }
 

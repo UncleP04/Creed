@@ -8,7 +8,7 @@ import Image from "next/image";
 const MarketPlace = () => {
   return (
     <>
-      <div className={styles.marketPlaceBox}>
+      <div className={styles.marketPlaceBox} id="marketPlace">
         <span className={styles.marketPlaceHeader}>
           <h1>NFT Market Place</h1>
           <p>

@@ -9,7 +9,7 @@ import YouTube from "../Images/youtube.png";
 const Footer = () => {
   return (
     <div>
-      <div className={styles.footerBox}>
+      <div className={styles.footerBox} id="ContactUs">
         <div className={styles.footerGrid}>
           <span className={styles.formBox}>
             <h3>Sign Up to receive product updates.</h3>
@@ -62,13 +62,11 @@ const Footer = () => {
           <Link href="/footerlk" className={styles.links}>
             Terms and Privacy
           </Link>
-          <li>
-            <Image
-              src={Telegram}
-              alt="Telegram.png"
-              className={styles.linkIcon}
-            />
-          </li>
+          <Image
+            src={Telegram}
+            alt="Telegram.png"
+            className={styles.linkIcon}
+          />
         </div>
       </div>
     </div>
