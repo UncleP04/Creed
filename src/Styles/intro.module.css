@@ -44,7 +44,7 @@ font-family: 'Foldit', cursive; */
 }
 
 .explore .exploreContent p {
-    color: #ced8e962;
+    color: #ebeef3be;
     margin-top: 10px;
     font-size: 15px;
 }
@@ -72,7 +72,7 @@ font-family: 'Foldit', cursive; */
 }
 
 .premierContent span {
-    color: #ced8e962;
+    color: #ebeef3be;
     font-size: 15px;
 }
 
@@ -114,14 +114,11 @@ font-family: 'Foldit', cursive; */
         font-size: 20px;
         text-transform: capitalize;
         letter-spacing: 3px;
-    }
-
-    .explore .exploreContent span h1 {
-        font-size: 2.3em;
+        font-size: 1.8em;
     }
 
     .explore .exploreContent p {
-        color: #ced8e962;
+        color: #ebeef3be;
         margin-top: 10px;
         font-size: 13px;
     }

@@ -38,7 +38,7 @@ const Gallery = () => {
             Take a step and start your journey into our unique world of
             collectables
           </h2>
-          <button className={styles.getStarted}>Get Started</button>
+          <input className={styles.getStarted} placeholder="Get Started" value="Get Started" type="submit" />
         </span>
         <Image src={Layer3} alt="layerEffect.png" className={styles.Layer3} />
         <Image src={Layer4} alt="layerEffect.png" className={styles.Layer4} />

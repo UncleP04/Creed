@@ -12,10 +12,10 @@ const Footer = () => {
       <div className={styles.footerBox} id="ContactUs">
         <div className={styles.footerGrid}>
           <span className={styles.formBox}>
-            <h3>Sign Up to receive product updates.</h3>
-            <form className={styles.mainForm}>
-              <label>Your Mail</label>
-              <input type="text" />
+            <label for="form">Sign Up to receive product updates.</label>
+            <form id="form" className={styles.mainForm}>
+              <label for="mail">Your Mail</label>
+              <input id="mail" type="text" />
             </form>
           </span>
           <span className={styles.help}>

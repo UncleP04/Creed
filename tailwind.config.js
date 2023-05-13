@@ -18,7 +18,7 @@ module.exports = {
       orange: "#cf943a",
       blue: "#00173E",
       whiteSmoke: "#00030846",
-      light: "#d6deeb59",
+      light: "#ebeef3be",
       white: "#fff",
     },
     fontFamily: {

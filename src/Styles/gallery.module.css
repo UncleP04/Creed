@@ -1,14 +1,13 @@
-
-
 .galleryBox {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #00050c;
     position: relative;
+    padding: 5% 0;
 }
 
 .galleryHeader {
@@ -34,7 +33,7 @@
 .galleryHeader p {
     text-align: center;
     font-size: 15px;
-    color: #d6deeb59;
+    color: #ebeef3be;
     width: 600px;
 }
 
@@ -104,18 +103,20 @@
 }
 
 .getStarted {
-    background: #cf943a;
+    background: #db8e19;
     color: #fff;
     padding: 10px 20px;
     border: 1px solid #cf943a;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 auto;
     border-radius: 10px;
+    z-index: 1;
 }
 
 
 .getStarted:hover {
     background: transparent;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
