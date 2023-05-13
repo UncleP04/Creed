@@ -34,8 +34,7 @@
 
 .mainForm,
 .help,
-.footerLink
-{
+.footerLink {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -43,14 +42,13 @@
     padding: 20px;
 }
 
-.formBox .mainForm{
+.formBox .mainForm {
     padding-top: 60px;
 }
 
 .formBox label,
 .help h3,
-.footerLink h3
-{
+.footerLink h3 {
     color: #fff;
     font-size: 15px;
     font-weight: 500;
@@ -58,24 +56,24 @@
     padding: 0;
 }
 
-.mainForm label{
+.mainForm label {
     color: #d6deeb59;
     font-size: 15px;
 }
 
 .mainForm input {
-   background: none;
-   border-bottom: 1px solid #00173E;
-   border-top: none;
-   border-left: none;
-   border-right: none;
-   padding: 10px;
-   outline: none;
-   color: #fff;
+    background: none;
+    border-bottom: 1px solid #00173E;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    outline: none;
+    color: #fff;
 }
 
 .help ul,
-.footerLink ul{
+.footerLink ul {
     padding: 10px;
 }
 
@@ -95,19 +93,48 @@
     padding-left: 5px;
 }
 
-.footerPreserved{
+.footerPreserved {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footerPreserved .links{
+.footerPreserved .links {
     text-decoration: none;
     color: #d6deeb59;
     font-size: 13px;
 }
 
-.linkIcon{
+.linkIcon {
     width: 30px;
     height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .help ul {
+        padding: 10px 0 0 0;
+    }
+
+    .footerLink {
+        padding: 20px;
+    }
+
+    .footerLink ul {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        padding: 10px 0 0 0;
+    }
+
+    .linkIcon {
+        padding: 0;
+    }
+
+    .footerGrid {
+        gap: 10px;
+    }
+
+    .footerBox .footerGrid span {
+        height: auto;
+    }
 }
