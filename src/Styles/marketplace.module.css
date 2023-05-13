@@ -149,6 +149,11 @@
     }
 
     .marketPlaceImg {
-        flex: 0 0 200px;
+        flex: 0 0 300px;
+        width: 100%;
+    }
+
+    .marketPlaceImg .image{
+        width: 100%;
     }
 }

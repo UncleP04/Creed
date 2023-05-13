@@ -158,6 +158,11 @@
     }
 
     .galleryImg {
-        flex: 0 0 200px;
+        flex: 0 0 300px;
+    }
+
+    .galleryImg .image{
+        width: 100%;
+        object-fit: cover;
     }
 }

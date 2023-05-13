@@ -115,6 +115,10 @@
         padding: 40px 10px;
     }
     
+    .footerGrid{
+        display: block;
+    }
+
     .help ul {
         padding: 10px 0 0 0;
     }
@@ -140,6 +144,10 @@
 
     .footerBox .footerGrid span {
         height: auto;
+    }
+
+    .help{
+        margin-top: 10px;
     }
 
         .mainForm,
