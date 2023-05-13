@@ -111,6 +111,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+    .footerBox {
+        padding: 40px 10px;
+    }
+    
     .help ul {
         padding: 10px 0 0 0;
     }
@@ -137,4 +141,10 @@
     .footerBox .footerGrid span {
         height: auto;
     }
+
+        .mainForm,
+        .help,
+        .footerLink {
+            padding: 10px;
+        }
 }
